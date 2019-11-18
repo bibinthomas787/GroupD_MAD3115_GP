@@ -22,6 +22,13 @@
 		EB022F4123824D47001F34AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB022F4323824D47001F34AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB022F4923825263001F34AB /* musicPlaylistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlaylistTableViewController.swift; sourceTree = "<group>"; };
+		EB022F5D23826F31001F34AB /* Clandestino_(feat_Maluma)_320kbps-MrJatt-Mp3.Com.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Clandestino_(feat_Maluma)_320kbps-MrJatt-Mp3.Com.mp3"; sourceTree = "<group>"; };
+		EB022F6023826F47001F34AB /* The_Way_I_Am_320kbps-MrJatt-Mp3.Com.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The_Way_I_Am_320kbps-MrJatt-Mp3.Com.mp3"; sourceTree = "<group>"; };
+		EB022F6123826F49001F34AB /* Hint - Karan Aujla (DjPunjab.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hint - Karan Aujla (DjPunjab.Com).mp3"; sourceTree = "<group>"; };
+		EB022F6223826F4B001F34AB /* Fire_in_the_Booth_Freestyle_320kbps-MrJatt-Mp3.Com.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fire_in_the_Booth_Freestyle_320kbps-MrJatt-Mp3.Com.mp3"; sourceTree = "<group>"; };
+		EB022F6323826F4C001F34AB /* Jhalle Title Song - Gurnam Bhullar (DjPunjab.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jhalle Title Song - Gurnam Bhullar (DjPunjab.Com).mp3"; sourceTree = "<group>"; };
+		EB022F6423826F4D001F34AB /* Alan_Walker_-_Faded_320kbps-MrJatt-Mp3.Com.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alan_Walker_-_Faded_320kbps-MrJatt-Mp3.Com.mp3"; sourceTree = "<group>"; };
+		EB022F6523826F4F001F34AB /* Attachment - Ravneet Singh (DjPunjab.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Attachment - Ravneet Singh (DjPunjab.Com).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +61,29 @@
 		EB022F3623824D2E001F34AB /* GroupD_MAD3115_GP */ = {
 			isa = PBXGroup;
 			children = (
+				EB022F4D23826BD6001F34AB /* songs */,
 				EB022F3723824D2F001F34AB /* AppDelegate.swift */,
-				EB022F3B23824D2F001F34AB /* Main.storyboard */,
 				EB022F4923825263001F34AB /* musicPlaylistTableViewController.swift */,
+				EB022F3B23824D2F001F34AB /* Main.storyboard */,
 				EB022F3E23824D47001F34AB /* Assets.xcassets */,
 				EB022F4023824D47001F34AB /* LaunchScreen.storyboard */,
 				EB022F4323824D47001F34AB /* Info.plist */,
 			);
 			path = GroupD_MAD3115_GP;
+			sourceTree = "<group>";
+		};
+		EB022F4D23826BD6001F34AB /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				EB022F6523826F4F001F34AB /* Attachment - Ravneet Singh (DjPunjab.Com).mp3 */,
+				EB022F6223826F4B001F34AB /* Fire_in_the_Booth_Freestyle_320kbps-MrJatt-Mp3.Com.mp3 */,
+				EB022F6423826F4D001F34AB /* Alan_Walker_-_Faded_320kbps-MrJatt-Mp3.Com.mp3 */,
+				EB022F6123826F49001F34AB /* Hint - Karan Aujla (DjPunjab.Com).mp3 */,
+				EB022F6323826F4C001F34AB /* Jhalle Title Song - Gurnam Bhullar (DjPunjab.Com).mp3 */,
+				EB022F6023826F47001F34AB /* The_Way_I_Am_320kbps-MrJatt-Mp3.Com.mp3 */,
+				EB022F5D23826F31001F34AB /* Clandestino_(feat_Maluma)_320kbps-MrJatt-Mp3.Com.mp3 */,
+			);
+			path = songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
